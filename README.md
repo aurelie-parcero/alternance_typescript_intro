@@ -21,6 +21,8 @@ Utilisez ensuite NPM pour installer Typescript :
 
 Que signifie l'option `--save-dev` ?
 
+ `` --save-dev s'utilise pour les packages qui sont nécessaires uniquement pendant le développement, mais ne sont pas requis pour faire fonctionner l'application en temps normal.``
+
 Initialisez ensuite le fichier de configuration `tsconfig.json` :
 
 `npx tsc --init --rootDir src --outDir build --esModuleInterop --lib es6 --module commonjs --allowJs true --noImplicitAny true`
