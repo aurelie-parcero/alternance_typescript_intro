@@ -70,7 +70,7 @@ Le rechargement automatique est ensuite lancé via la commande `nodemon -I`. Cr�
 Vous allez utiliser le langage Typescript pour développer une version très simplifiée du jeu "Donjons & Dragons", en utilisant des interactions via ligne de commande uniquement.
 
 Tout d'abord, installez la librairie [prompts](https://github.com/terkelg/prompts) qui permet de mettre en place simplement des interactions en ligne de commande.  
-Installez également les types Typescript pour prompts `@types/node` en tant que librairie de développement.
+Installez également les types Typescript pour prompts `@types/prompts` en tant que librairie de développement.
 
 Modifiez ensuite votre fichier `index.ts` afin d'utiliser `prompts`. Dans un premier temps, proposez au joueur de saisir le nom de son personnage puis affichez-le dans la console.
 
