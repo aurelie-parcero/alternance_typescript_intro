@@ -1,5 +1,4 @@
-import {Enemy} from "./Enemy";
-import {Character} from "./Character";
+import {Character} from "../characters/Character";
 
 interface Fighter {
 
